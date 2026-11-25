@@ -1,0 +1,17 @@
+{
+  "name": "crud-firestore-alunos",
+  "version": "1.0.0",
+  "description": "CRUD de alunos com Firebase Cloud Firestore (Node.js + Express + firebase-admin)",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase-admin": "^12.7.0"
+  }
+}
